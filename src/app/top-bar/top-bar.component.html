@@ -1,9 +1,10 @@
-<app-top-bar></app-top-bar>
+<a [routerLink]="['/store']">
+  <h1>My Store</h1>
+</a>
 
-<div class="container">
-  <router-outlet></router-outlet>
-</div>
-
+<a routerLink="/cart" class="button fancy-button">
+  <i class="material-icons">shopping_cart</i>Checkout
+</a>
 <!-- 
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that
